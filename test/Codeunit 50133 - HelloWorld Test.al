@@ -17,7 +17,7 @@ codeunit 50133 "HelloWorld.Test"
     procedure HelloWorldMessageHandler(Message: Text[1024])
     begin
         MessageDisplayed := MessageDisplayed or (Message = 'App Published: Hello World Base!');
-    end;
+    end; //RT Test
 
     var
         MessageDisplayed: Boolean;
